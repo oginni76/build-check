@@ -17,7 +17,7 @@ describe('AppController', () => {
   describe('root', () => {
     it('should return "Hello World. Using this pr branch to test!"', () => {
       expect(appController.getHi()).toBe(
-        'Hello World. Using this pr branch to test!',
+        'Hello Worl. Using this pr branch to test!',
       );
     });
   });
