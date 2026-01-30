@@ -2,7 +2,7 @@ import { Injectable } from '@nestjs/common';
 
 @Injectable()
 export class AppService {
-  getHello(): string {
+  getHi(): string {
     return 'Hello World. Using this pr branch to test!';
   }
 }
