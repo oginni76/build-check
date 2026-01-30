@@ -8,6 +8,7 @@ on:
 
 jobs:
   checks:
+    name: CI - Team Build Safety
     runs-on: ubuntu-latest
     timeout-minutes: 10  
 
