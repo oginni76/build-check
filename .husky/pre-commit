@@ -1,0 +1,7 @@
+#!/usr/bin/env sh
+#"Look in the exact same folder where I am located, find the sub-folder named _, and run the file called husky.sh inside it."
+. "$(dirname -- "$0")/_/husky.sh"
+
+#npm test
+
+npx lint-staged
