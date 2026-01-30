@@ -15,8 +15,10 @@ describe('AppController', () => {
   });
 
   describe('root', () => {
-    it('should return "Hello World!"', () => {
-      expect(appController.getHi()).toBe('Hello World!');
+    it('should return "Hello World. Using this pr branch to test!"', () => {
+      expect(appController.getHi()).toBe(
+        'Hello World. Using this pr branch to test!',
+      );
     });
   });
 });
